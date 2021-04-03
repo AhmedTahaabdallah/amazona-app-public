@@ -1,0 +1,18 @@
+.card {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-body > * {
+    margin-bottom: 00.5rem;
+}
+
+.price {
+    font-size: 2rem;
+}

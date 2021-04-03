@@ -1,0 +1,8 @@
+.address-map {
+    color: #0763bf;
+    cursor: pointer;
+}
+
+.address-map:hover {
+    color: #ff8000;
+}

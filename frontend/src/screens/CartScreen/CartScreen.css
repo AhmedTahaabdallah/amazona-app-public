@@ -1,0 +1,16 @@
+img.small {
+    max-width: 5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.cartcardEn {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+@media (max-width: 1250px) {
+    .cartcardEn {
+        margin-left: 0;
+    }
+}

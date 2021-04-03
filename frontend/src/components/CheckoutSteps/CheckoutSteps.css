@@ -1,0 +1,51 @@
+.checkout-steps > div {
+    border-top: 0.3rem #c0c0c0 solid;
+    color: #c0c0c0;
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.checkout-steps > div.active {
+    border-top-color: #f08000;
+    color: #f08000;
+}
+
+
+
+@media (max-width: 335px) {
+    .checkout-steps > div {
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 336px) and (max-width: 355px) {
+    .checkout-steps > div {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 356px) and (max-width: 389px) {
+    .checkout-steps > div {
+        font-size: 1.0rem;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 425px) {
+    .checkout-steps > div {
+        font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 444px) {
+    .checkout-steps > div {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 445px) and (max-width: 550px) {
+    .checkout-steps > div {
+        font-size: 1.4rem;
+    }
+}
